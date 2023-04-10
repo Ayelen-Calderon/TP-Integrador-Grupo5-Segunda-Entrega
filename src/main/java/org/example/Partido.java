@@ -7,15 +7,15 @@ public class Partido {
 
     //Atributos
 
-    private Equipo equipoLocal;
-    private Equipo equipoVisitante;
+    private String equipoLocal;
+    private String equipoVisitante;
     private int golesEL;
     private int golesEV;
     private int resultado;
 
     //Constructor
 
-    public Partido(Equipo equipoLocal, Equipo equipoVisitante, int golesEL, int golesEV) {
+    public Partido(String equipoLocal, String equipoVisitante, int golesEL, int golesEV) {
         this.equipoLocal = equipoLocal;
         this.equipoVisitante = equipoVisitante;
         this.golesEL = golesEL;

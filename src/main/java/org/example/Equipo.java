@@ -1,9 +1,10 @@
 package org.example;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
 
-@Data@AllArgsConstructor
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data@NoArgsConstructor
 public class Equipo {
 
     //Atributos
