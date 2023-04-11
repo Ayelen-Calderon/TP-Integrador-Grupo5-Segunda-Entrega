@@ -1,13 +1,12 @@
 package org.example;
-import java.io.IOException;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
 
         String rutaArchivoResultado = args[0];
         Ronda ronda;
-        String rutaARchivoPronostico=args[1];
+        String rutaARchivoPronostico = args[1];
         Pronostico prono;
 
         try {

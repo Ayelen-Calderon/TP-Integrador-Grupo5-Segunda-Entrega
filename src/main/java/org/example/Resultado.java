@@ -11,14 +11,14 @@ public class Resultado {
 
     //Metodos
 
-    public void calcularResultado(int golesEL,int golesEV){
+    public ResultadoPartido calcularResultado(int golesEL,int golesEV){
         if(golesEL==golesEV){
-            this.rdo=2;
+            return ResultadoPartido.Empate;
         }else{
             if (golesEL>golesEV){
-                this.rdo=1;
+                return ResultadoPartido.GanaL;
             }else{
-                this.rdo=3;
+                return ResultadoPartido.GanaV;
             }
         }
     }

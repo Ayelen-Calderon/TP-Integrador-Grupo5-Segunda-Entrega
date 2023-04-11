@@ -25,11 +25,8 @@ public class Pronostico {
     }
 
     //Metodos
-    public void leerPronosticos()throws ArchivoException, IOException {
-        if(rutaARchivoPronostico.equals("")){
-            throw new ArchivoException();
-        }else {
-            List<String> readAllLines = Files.readAllLines(Paths.get(rutaARchivoPronostico));
+    public void leerPronosticos()throws IOException {
+        List<String> readAllLines = Files.readAllLines(Paths.get(rutaARchivoPronostico));
             for (int i = 1; i < readAllLines.size(); i++) {
                 archivoPronostico = readAllLines.get(i);
                 int X=archivoPronostico.indexOf("X");
@@ -43,12 +40,7 @@ public class Pronostico {
                     }
                 }
             }
-
         }
-
-    }
-
-
    /* public void calcularPuntos(){
         if(partidoApostado.getResultado()==apuesta){
             puntos++;

@@ -46,7 +46,6 @@ public class Ronda{
         }
     }
 
-
   /*  public int puntosTotales(Pronostico pron){
         pron.calcularPuntos();
         return pron.getPuntos();
