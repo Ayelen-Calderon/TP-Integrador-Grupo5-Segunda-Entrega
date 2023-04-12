@@ -45,9 +45,10 @@ public class Ronda{
             }
         }
     }
-
-  /*  public int puntosTotales(Pronostico pron){
-        pron.calcularPuntos();
-        return pron.getPuntos();
-    }*/
 }
+
+/*
+1,Argentina,1,2,Arabia Saudita
+1,Polonia,0,0,Mexico
+2,Argentina,2,0,Mexico
+2,Arabia Saudita,0,2,Polonia*/

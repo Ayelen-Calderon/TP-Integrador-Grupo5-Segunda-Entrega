@@ -21,7 +21,6 @@ public class Main {
 
 
 
-
         int puntosTotales=0;
 
       /*  for (int i=0;i<partido.size();i++){

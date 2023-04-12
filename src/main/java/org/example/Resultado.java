@@ -22,4 +22,7 @@ public class Resultado {
             }
         }
     }
+   /* public int resultadoApuesta(Apostador persona){
+
+    }*/
 }
